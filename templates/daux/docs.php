@@ -30,14 +30,14 @@ include "header.php";
 					<!-- Navigation -->
 					<?php echo build_nav($tree, $url_params); ?>
 
-					<?php if (!empty($options['daux_links']) || !empty($options['twitter'])) { ?>
+					<?php if (!empty($options['daux_links']) || !empty($options['daux_twitter'])) { ?>
 					<div class="well well-sidebar">
 						<!-- Links -->
 						<?php foreach($options['daux_links'] as $name => $url) { ?>
 						<a href="<?php echo $url;?>" target="_blank"><?php echo $name;?></a><br>
 						<?php } ?>
 						<!-- Twitter -->
-						<?php foreach($options['twitter'] as $handle) { ?>
+						<?php foreach($options['daux_twitter'] as $handle) { ?>
 						<div class="twitter">
 							<hr/>
 							<iframe allowtransparency="true" frameborder="0" scrolling="no" style="width:162px; height:20px;" src="https://platform.twitter.com/widgets/follow_button.html?screen_name=<?php echo $handle;?>&amp;show_count=false"></iframe>

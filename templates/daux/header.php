@@ -9,9 +9,9 @@
 	<meta name="description" content="<?php echo $options['tagline'];?>" />
 	<meta name="author" content="<?php echo $options['title']; ?>">
 <?php if (isset($options['daux_colors'])) { ?>
-	<link rel="icon" href="/<?php echo $template_path ?>/img/favicon.png" type="image/x-icon">
+	<link rel="icon" href="<?php echo $template_path ?>/img/favicon.png" type="image/x-icon">
 <?php } else { ?>
-	<link rel="icon" href="/<?php echo $template_path ?>/img/favicon-<?php echo $options['daux_theme'];?>.png" type="image/x-icon">
+	<link rel="icon" href="<?php echo $template_path ?>/img/favicon-<?php echo $options['daux_theme'];?>.png" type="image/x-icon">
 <?php } ?>
 	<!-- Mobile -->
 	<meta name="apple-mobile-web-app-capable" content="yes" />

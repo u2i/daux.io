@@ -37,8 +37,8 @@ include "header.php";
 		<div class="container">
 			<div class="row">
 				<div class="text-center span12">
-					<?php if ($options['repo']) { ?>
-					<a href="https://github.com/<?php echo $options['repo']; ?>" class="btn btn-secondary btn-hero">
+					<?php if ($options['daux_repo']) { ?>
+					<a href="https://github.com/<?php echo $options['daux_repo']; ?>" class="btn btn-secondary btn-hero">
 						View On GitHub
 					</a>
 					<?php } ?>
@@ -82,8 +82,8 @@ include "header.php";
 				</div>
 				<div class="span5">
 					<div class="pull-right">
-						<?php if (!empty($options['twitter'])) { ?>
-						<?php foreach($options['twitter'] as $handle) { ?>
+						<?php if (!empty($options['daux_twitter'])) { ?>
+						<?php foreach($options['daux_twitter'] as $handle) { ?>
 						<div class="twitter">
 							<iframe allowtransparency="true" frameborder="0" scrolling="no" style="width:162px; height:20px;" src="https://platform.twitter.com/widgets/follow_button.html?screen_name=<?php echo $handle;?>&amp;show_count=false"></iframe>
 						</div>
