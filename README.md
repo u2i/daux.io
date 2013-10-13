@@ -1,4 +1,4 @@
-* Major Refactor *
+# Major Refactor
 
 This branch will contain the working copy of the major refactor project to help separate out the logic of the application from the display. Feel free to submit PR's to help complete features and add new ones before the 1.0 release.
 
