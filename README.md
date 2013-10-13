@@ -1,3 +1,11 @@
+* Major Refactor *
+
+This branch will contain the working copy of the major refactor project to help separate out the logic of the application from the display. Feel free to submit PR's to help complete features and add new ones before the 1.0 release.
+
+Committed changes to this branch are automatically pushed to [dev.daux.io](http://dev.daux.io/)
+
+----------------------
+
 **Daux.io** is an documentation generator that uses a simple folder structure and Markdown files to create custom documentation on the fly. It helps you create great looking documentation in a developer friendly way.
 
 ## Features
