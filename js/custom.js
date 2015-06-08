@@ -2,7 +2,13 @@ $(function () {
     $('.aj-nav').click(function (e) {
         e.preventDefault();
         $(this).parent().siblings().find('ul').slideUp();
-        $(this).next().slideToggle();
+        if ( $(this).next().is(':visible') ) {
+            $(".article-tree ul > li a").not("ul li ul a").next().slideDown(0);
+            $(this).next().slideUp(0);
+        } else {
+            $(".article-tree ul > li a").not("ul li ul a").next().slideDown(0);
+            $(this).next().slideDown(0);
+        }
     });
 
     $('table').addClass('table');

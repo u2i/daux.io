@@ -75,7 +75,7 @@
 <!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <title><?php echo $page['title']; ?></title>
+    <title><?php echo $page['title']; ?> | u2i docs</title>
     <meta name="description" content="<?php echo $page['tagline'];?>" />
     <meta name="author" content="<?php echo $page['author']; ?>">
     <meta charset="UTF-8">
